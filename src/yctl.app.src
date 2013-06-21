@@ -1,0 +1,12 @@
+{application, yctl,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { yctl_app, []}},
+  {env, []}
+ ]}.
